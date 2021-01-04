@@ -20,5 +20,5 @@ deploy:
   region: us-east-2
   app: Elly Tale
   env: EllyTale-env
-  bucket_name: ''
+  bucket_name: elasticbeanstalk-us-east-2-126803918895
   skip_cleanup: 'true'
