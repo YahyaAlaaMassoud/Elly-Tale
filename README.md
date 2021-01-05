@@ -99,57 +99,11 @@ To know more about the design of the gamified thepautic VR application, check ou
 
 	* Here we define most of our variables used for [statistics](#Statistics) computation
 
-* **html\Beach.html**
+* **html** directory
 
-	* Contains **beach** environments' entities (scene, sky, beach, fairy, distractor, score, list of items, etc) with all components
-
-* **html\Garden.html**
-
-	* Contains **garden** environments' entities
-
-* **html\Library.html**
-
-	*	Contains **library** environments' entitis
-
-* **js\timermanger.js**
-
-	* Contains “timer” AFrame component which is responsible for loading next scene after a specific duration
-
-* **js\distractormovenment.js**
-
-	* Contains component which mange the distractor random movenments in **Level 2**
-
-* **js\distractoradvancedmovenment.js**
-
-	* Contains component which manages the distractor movenment in **Level 3**, in addition to calculate time since distractor hit any target until player responds to it
-
-* **js\fairytasktimer.js**
-
-	* Responsible for calculating the time the player took since the fairy hit the target until the player opens it successfully
-
-* **js\inpscounter.js**
-
-	* Responsible for count times that the player doesn’t look at the fairy for more than 3 seconds. It is used in collecting data, check [Statistics](#Statistics) section for mre information
-
-* **js\items.js**
-
-	* this register an a-frame component which is responsible for choosing random items from the list to show up when the player opens the target and after 10 seconds it will disappear and also this component mange score
-
-* **js\movetotarget.js**
-
-	* Contains the component which will add light to the target just hitted by the fairy and manage fairy movement when the distractor hits any target
-
-* **js\menu.js**
-
-	* Controls the game's levels, and whether a timer is used or not
-
-* **js\stats.js**
-
-	* Here we calculate our [Statistics](#Statistics)
-
-* **js\selectenvironment.js**
-
-	* Responsible for choosing the environment
+	* Contains environments' entities and components for **Garden**, **Beach**, and **Library**. Check [here](https://github.com/YahyaAlaaMassoud/Illy-Tale/blob/master/html/README.md) for more information.
+* **js** directory
+	* Contains all logic and based on AFrame and JS code. Check [here](https://github.com/YahyaAlaaMassoud/Illy-Tale/blob/master/js/README.md) for more information
 
 ## Contributions
 First off, thanks for taking the time to contribute! You can check out our contribution guidelines from this [link](https://github.com/YahyaAlaaMassoud/Illy-Tale/blob/master/CONTRIBUTING.md).
