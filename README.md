@@ -86,6 +86,12 @@ To know more about the design of the gamified thepautic VR application, check ou
  3. On your dashboard, then click **New project**, then choose the **Import from GitHub** option
  4. Paste the repo's full [url](https://github.com/vrapeutic/AFrame.git), then click **Ok**
  5. You're ready to go!
+ 
+ ### Preferred platform
+ ---
+ If you are going to be using a VR Headset, then we recommend trying the app (either the [hosted version](https://bit.ly/2LiIM22) or on [Glitch](https://glitch.com/)) on the [Oculus Browser](https://developer.oculus.com/webxr/).
+ 
+ For local development and testing, modern browsers could be used, where mouse and keyboard interactions will be the main source of interaction with the VR environment.
 
 ## Code structures
 
