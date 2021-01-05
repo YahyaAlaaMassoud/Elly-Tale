@@ -4,11 +4,12 @@ node_js:
   - node
 
 script:
-  - echo "BUILDING AND PUSHING A NEW IMAGE OF THE CODE"
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker image build --tag $DOCKER_USERNAME/elly-tale-webxr:latest .
-  - docker images
-  - docker image push $DOCKER_USERNAME/elly-tale-webxr
+  if: branch = master
+    - echo "BUILDING AND PUSHING A NEW IMAGE OF THE CODE"
+    - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+    - docker image build --tag $DOCKER_USERNAME/elly-tale-webxr:latest .
+    - docker images
+    - docker image push $DOCKER_USERNAME/elly-tale-webxr
 
 deploy:
   on:
