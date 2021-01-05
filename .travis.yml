@@ -4,7 +4,7 @@ node_js:
   - node
 
 script:
-  if: branch = master
+  if: [ "$TRAVIS_BRANCH" = "master" ]
     - echo "BUILDING AND PUSHING A NEW IMAGE OF THE CODE"
     - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
     - docker image build --tag $DOCKER_USERNAME/elly-tale-webxr:latest .
