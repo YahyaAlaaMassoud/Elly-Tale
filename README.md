@@ -5,7 +5,9 @@
 |-	|-	|
 ___
 
+<p align="center">
 <a href="https://giphy.com/"><img src="https://media.giphy.com/media/sPLvCsgHmeRORpXqEB/giphy.gif" alt="illy-poster" border="0"></a>
+</p>
 
 ## Description
  
